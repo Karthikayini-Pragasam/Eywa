@@ -1,0 +1,80 @@
+.pricing {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+}
+
+.pricing-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pricing-tier {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.pricing-tier:hover {
+  transform: translateY(-5px);
+}
+
+.pricing-tier.popular {
+  border: 2px solid #007bff;
+  transform: scale(1.05);
+}
+
+.tier-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.tier-price {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.tier-price span {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #555;
+}
+
+.tier-features {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.tier-features li {
+  margin-bottom: 0.5rem;
+}
+
+.tier-cta {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.tier-cta:hover {
+  background-color: #0056b3;
+}
