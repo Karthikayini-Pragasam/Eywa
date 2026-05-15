@@ -12,15 +12,17 @@ const Home: React.FC = () => {
       <section className="features">
         <h2 className="features-title">Features</h2>
         <div className="features-grid">
-          <div className="feature-item">
-            <div className="feature-icon">
-              <i className="fas fa-question-circle"></i>
+          <Link to="/ask" className="feature-item-link">
+            <div className="feature-item">
+              <div className="feature-icon">
+                <i className="fas fa-question-circle"></i>
+              </div>
+              <h3 className="feature-title">Ask About Your Family</h3>
+              <p className="feature-description">
+                Get answers to any family-related information by asking a question in your native language.
+              </p>
             </div>
-            <h3 className="feature-title">Ask About Your Family</h3>
-            <p className="feature-description">
-              Get answers to any family-related information by asking a question in your native language.
-            </p>
-          </div>
+          </Link>
           <div className="feature-item">
             <div className="feature-icon">
               <i className="fas fa-users"></i>

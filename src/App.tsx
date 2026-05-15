@@ -7,6 +7,7 @@ import About from './pages/About';
 import Pricing from './pages/Pricing';
 import Contact from './pages/Contact';
 import Login from './pages/Login';
+import Ask from './pages/Ask';
 
 const App: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const App: React.FC = () => {
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/ask" element={<Ask />} />
       </Routes>
       <Footer />
     </BrowserRouter>
