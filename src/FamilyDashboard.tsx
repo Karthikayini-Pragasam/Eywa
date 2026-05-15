@@ -4,10 +4,6 @@ import './FamilyDashboard.css';
 
 const FamilyDashboard: React.FC = () => {
 
-  const handleConnect = () => {
-    window.open('http://localhost:3001/auth/google', '_blank');
-  };
-
   return (
     <div className="dashboard-container">
       <header className="dashboard-header">
@@ -24,7 +20,7 @@ const FamilyDashboard: React.FC = () => {
             <div className="vault-card">History</div>
             <div className="vault-card">End of Life</div>
           </div>
-          <button className="connect-button" onClick={handleConnect}>
+          <button className="connect-button">
             Connect to Google Drive
           </button>
         </div>
